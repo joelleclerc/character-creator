@@ -77,6 +77,7 @@ function App() {
           />
         </div>
       </MaxWidthWrapper>
+      
 
       <div className={styles.characterWrapper}>
         <Character
@@ -88,6 +89,9 @@ function App() {
           clothesColor={clothesColor}
         />
       </div>
+      
+      <div className={styles.bottomBox}></div>
+      
     </main>
   );
 }
